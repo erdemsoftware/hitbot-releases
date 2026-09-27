@@ -87,10 +87,15 @@ Uygulama her açılışta bu depodaki son sürümü kontrol eder ve yeni bir sü
 ## Sürüm geçmişi
 
 ### v1.1.0
+**Yenilikler**
 - **HitBot'a özel proxy'ler:** satın aldığınız proxy'ler hesabınıza tanımlandığı anda uygulamada otomatik görünür, sipariş kodu ve sırasıyla (#1, #2…) adlandırılır.
-- **Proxy seçip aktif etme:** her proxy için aktif/pasif anahtarı, "yalnızca bunu kullan", tümünü aktif/pasif et.
-- **Kota sorgulama:** HitBot proxy'lerinin kalan kotası ve bitiş tarihi uygulama içinden.
+- **Uygulama üzerinden proxy kota sorgulama ve takip:** HitBot proxy'lerinizin kalan kotasını (GB) ve bitiş tarihini uygulamadan tek tıkla sorgulayıp proxy listesinde takip edebilirsiniz.
+- **Proxy seçip aktif etme:** her proxy için aktif/pasif anahtarı, "yalnızca bunu kullan", tümünü aktif/pasif et — kendi eklediğiniz proxy'ler dahil.
 - Panele geçici olarak ulaşılamadığında son senkronize proxy'lerle çalışmaya devam.
+
+**Performans ve iyileştirmeler**
+- **Proxy işlemlerinde performans iyileştirmeleri:** tarayıcıların proxy bağlantı altyapısı yeniden yazıldı; her proxy için tek bir yerel bağlantı noktası açılıp tüm tarayıcı oturumlarında tekrar kullanılıyor.
+- Proxy listesi ve test ekranı yenilendi; proxy test ve seçim işlemleri daha hızlı ve kararlı.
 - Genel performans ve kararlılık iyileştirmeleri; kullanım istatistiklerinin panele iletilmesi düzeltildi; lisans doğrulaması güçlendirildi.
 
 ### v1.0.0
