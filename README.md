@@ -44,7 +44,7 @@ hesabınıza bağlanır, satın aldığınız kaynakları otomatik olarak çeker
 - **Anahtar kelime bazlı kampanyalar** — tam kelime veya `site:` hedefli arama; sitenizi sonuçlarda bulup tıklar.
 - **Site içi akıllı gezinme** — menü, içerik ve ilgili sayfalar arasında doğal gezinti.
 - **Masaüstü / mobil cihaz karışımı** — Search Console "Cihaz" raporuna yansıyacak oranı siz belirlersiniz.
-- **Çoklu sorgu oturumları ve trafik kaynağı çeşitliliği** (organik, doğrudan, sosyal, referans).
+- **Trafik kaynağı karışımı** (organik, doğrudan, sosyal) ve **geri gelen ziyaretçi** simülasyonu.
 - **Gün içine dağıtım** — ziyaretleri saatlere yayan planlama seçenekleri.
 
 ### Proxy ve cookie yönetimi
@@ -75,7 +75,7 @@ hesabınıza bağlanır, satın aldığınız kaynakları otomatik olarak çeker
 2. [`HitBot-Setup.exe`](https://github.com/erdemsoftware/hitbot-releases/releases/latest/download/HitBot-Setup.exe) dosyasını indirip çalıştırın.
 3. Uygulama açıldığında lisans anahtarınızı girin. Lisans bu bilgisayara (donanım kimliği / HWID) bağlanır.
 4. **Veri Yönetimi** bölümünden anahtar kelimelerinizi ekleyin; proxy ve cookie paketleriniz panelden otomatik gelir.
-5. **Bot Ayarları**'nı yapıp başlatın.
+5. **Bot Kontrolü**'nden ayarlarınızı yapıp başlatın.
 
 > Lisansı başka bir bilgisayara taşımak için müşteri panelinden veya destek üzerinden HWID sıfırlaması isteyin.
 
@@ -87,16 +87,16 @@ Uygulama her açılışta bu depodaki son sürümü kontrol eder ve yeni bir sü
 ## Sürüm geçmişi
 
 ### v1.1.0
-**Yenilikler**
-- **HitBot'a özel proxy'ler:** satın aldığınız proxy'ler hesabınıza tanımlandığı anda uygulamada otomatik görünür, sipariş kodu ve sırasıyla (#1, #2…) adlandırılır.
-- **Uygulama üzerinden proxy kota sorgulama ve takip:** HitBot proxy'lerinizin kalan kotasını (GB) ve bitiş tarihini uygulamadan tek tıkla sorgulayıp proxy listesinde takip edebilirsiniz.
+**Öne çıkanlar**
+- **HitBot'a özel proxy'ler:** satın aldığınız proxy'ler hesabınıza tanımlandığı anda uygulamada otomatik görünür, sipariş koduyla adlandırılır; kalan kota ve bitiş tarihi uygulamadan sorgulanır.
 - **Proxy seçip aktif etme:** her proxy için aktif/pasif anahtarı, "yalnızca bunu kullan", tümünü aktif/pasif et — kendi eklediğiniz proxy'ler dahil.
-- Panele geçici olarak ulaşılamadığında son senkronize proxy'lerle çalışmaya devam.
+- **Güncel tarayıcı motoru (Chrome 154)**, proxy ülkesine göre otomatik dil/saat dilimi/konum ve ziyaret boyunca sabit IP.
+- **Daha doğal ziyaretler:** arama sonuçlarında gezinme, otomatik tamamlama ve yazım hatası, "en az / en çok" sitede kalma süresi, isteğe bağlı trafik kaynağı karışımı, geri gelen ziyaretçi ve tarayıcı ısıtma.
+- **Captcha alan proxy dinlendirme** ve Hit Raporları'nda proxy bazında captcha takibi.
+- **Cookie oturum kontrolü:** hangi cookie dosyasının kullanıldığı görünür; oturumu kapanmış dosya atlanır.
+- Ayar yedekleme (dışa/içe aktarma), tema uyumlu uyarı pencereleri, güçlendirilmiş lisans doğrulaması ve çok sayıda düzeltme.
 
-**Performans ve iyileştirmeler**
-- **Proxy işlemlerinde performans iyileştirmeleri:** tarayıcıların proxy bağlantı altyapısı yeniden yazıldı; her proxy için tek bir yerel bağlantı noktası açılıp tüm tarayıcı oturumlarında tekrar kullanılıyor.
-- Proxy listesi ve test ekranı yenilendi; proxy test ve seçim işlemleri daha hızlı ve kararlı.
-- Genel performans ve kararlılık iyileştirmeleri; kullanım istatistiklerinin panele iletilmesi düzeltildi; lisans doğrulaması güçlendirildi.
+Ayrıntılı değişiklik listesi: [v1.1.0 sürüm notları](https://github.com/erdemsoftware/hitbot-releases/releases/tag/v1.1.0)
 
 ### v1.0.0
 - Lisans doğrulama düzeltmesi, panel adresi hitbot.org olarak güncellendi.
@@ -107,7 +107,7 @@ Tüm sürümler: [Releases](https://github.com/erdemsoftware/hitbot-releases/rel
 
 - Web: [hitbot.org](https://hitbot.org)
 - Nasıl çalışır: [hitbot.org/nasil-calisir](https://hitbot.org/nasil-calisir)
-- Sık sorulan sorular: [hitbot.org/sss](https://hitbot.org/sss)
+- Sık sorulan sorular: [hitbot.org/sikca-sorulan-sorular](https://hitbot.org/sikca-sorulan-sorular)
 - İletişim: [hitbot.org/iletisim](https://hitbot.org/iletisim) — ya da müşteri panelinizden destek talebi açın.
 
 ---
