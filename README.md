@@ -49,8 +49,8 @@ hesabınıza bağlanır, satın aldığınız kaynakları otomatik olarak çeker
 
 ### Proxy ve cookie yönetimi
 - **HTTP, SOCKS4, SOCKS5** — kullanıcı adı/şifreli proxy, IPv4 ve IPv6 desteği.
-- **HitBot'a özel proxy'ler** — hitbot.org'dan aldığınız proxy'ler uygulamada otomatik görünür
-  (ör. *HitBot 1GB Residential Rotating Proxy — HB-XXXX #1*), **kalan kota ve bitiş tarihi** uygulama içinden sorgulanır.
+- **HitBot'a özel proxy'ler** — hitbot.org'dan aldığınız proxy'ler uygulamada otomatik görünür,
+  **kalan kota ve bitiş tarihi** uygulama içinden sorgulanır.
 - **Proxy seçip aktif etme** — hangi proxy'lerin kullanılacağını tek tek seçin; kendi proxy'lerinizi de ekleyebilirsiniz.
 - **Toplu proxy testi**, çevrimiçi/çevrimdışı filtreleme ve başarı oranı takibi.
 - **Cookie yönetimi** — dosya/klasörden yükleme veya panelden satın alınan cookie'leri otomatik çekme.
@@ -61,23 +61,20 @@ hesabınıza bağlanır, satın aldığınız kaynakları otomatik olarak çeker
 - **Genel bakış paneli** — canlı hit sayısı, başarı oranı, çalışma süresi ve hazırlık durumu.
 - **Türkçe / İngilizce** arayüz, **açık / koyu / sistem** teması.
 - **Otomatik güncelleme** — yeni sürüm çıktığında uygulama içinden haber verir.
-- **Kullanım raporları** — gönderilen hitler hitbot.org müşteri panelinizde raporlanır.
+- **Kullanım raporları** — gönderilen hitler hem uygulama içindeki **Hit Raporları**'nda hem de hitbot.org müşteri panelinizde raporlanır.
 
 ## Sistem gereksinimleri
 
 - Windows 10 / 11 veya Windows Server (64-bit)
-- İnternet bağlantısı (lisans doğrulama ve kaynak senkronizasyonu için)
 - Önerilen: 4 GB+ RAM — çok sayıda eşzamanlı worker için daha fazlası
 
 ## Kurulum ve ilk çalıştırma
 
 1. [hitbot.org](https://hitbot.org) üzerinden bir lisans paketi satın alın. Lisans anahtarınız hesabınıza tanımlanır.
 2. [`HitBot-Setup.exe`](https://github.com/erdemsoftware/hitbot-releases/releases/latest/download/HitBot-Setup.exe) dosyasını indirip çalıştırın.
-3. Uygulama açıldığında lisans anahtarınızı girin. Lisans bu bilgisayara (donanım kimliği / HWID) bağlanır.
+3. Uygulama açıldığında lisans anahtarınızı girin. Lisans bu bilgisayara bağlanır.
 4. **Veri Yönetimi** bölümünden anahtar kelimelerinizi ekleyin; proxy ve cookie paketleriniz panelden otomatik gelir.
 5. **Bot Kontrolü**'nden ayarlarınızı yapıp başlatın.
-
-> Lisansı başka bir bilgisayara taşımak için müşteri panelinden veya destek üzerinden HWID sıfırlaması isteyin.
 
 ## Otomatik güncelleme
 
@@ -90,7 +87,7 @@ Uygulama her açılışta bu depodaki son sürümü kontrol eder ve yeni bir sü
 **Öne çıkanlar**
 - **HitBot'a özel proxy'ler:** satın aldığınız proxy'ler hesabınıza tanımlandığı anda uygulamada otomatik görünür, sipariş koduyla adlandırılır; kalan kota ve bitiş tarihi uygulamadan sorgulanır.
 - **Proxy seçip aktif etme:** her proxy için aktif/pasif anahtarı, "yalnızca bunu kullan", tümünü aktif/pasif et — kendi eklediğiniz proxy'ler dahil.
-- **Güncel tarayıcı motoru (Chrome 154)**, proxy ülkesine göre otomatik dil/saat dilimi/konum ve ziyaret boyunca sabit IP.
+- **Otomatik ülke eşleştirme:** tarayıcının dili, saat dilimi ve konumu proxy'nin ülkesine göre otomatik ayarlanır.
 - **Daha doğal ziyaretler:** arama sonuçlarında gezinme, otomatik tamamlama ve yazım hatası, "en az / en çok" sitede kalma süresi, isteğe bağlı trafik kaynağı karışımı, geri gelen ziyaretçi ve tarayıcı ısıtma.
 - **Captcha alan proxy dinlendirme** ve Hit Raporları'nda proxy bazında captcha takibi.
 - **Cookie oturum kontrolü:** hangi cookie dosyasının kullanıldığı görünür; oturumu kapanmış dosya atlanır.
@@ -99,7 +96,7 @@ Uygulama her açılışta bu depodaki son sürümü kontrol eder ve yeni bir sü
 Ayrıntılı değişiklik listesi: [v1.1.0 sürüm notları](https://github.com/erdemsoftware/hitbot-releases/releases/tag/v1.1.0)
 
 ### v1.0.0
-- Lisans doğrulama düzeltmesi, panel adresi hitbot.org olarak güncellendi.
+- HitBot'un ilk sürümü yayına alındı: anahtar kelime bazlı organik hit, proxy ve cookie yönetimi, hitbot.org lisans ve panel entegrasyonu.
 
 Tüm sürümler: [Releases](https://github.com/erdemsoftware/hitbot-releases/releases)
 
