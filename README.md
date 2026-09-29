@@ -83,6 +83,13 @@ Uygulama her açılışta bu depodaki son sürümü kontrol eder ve yeni bir sü
 
 ## Sürüm geçmişi
 
+### v1.2.0
+- **Eşzamanlı tarayıcı hatası düzeltildi:** aynı anda çalışan tarayıcılar artık birbirinin anahtar kelimesini, cihaz profilini ve ülke/dil ayarlarını karıştırmıyor.
+- Captcha, proxy ve sayfa hatasıyla biten denemeler de hitbot.org raporlarına iletiliyor; başarılı/başarısız sayıları panelde eksiksiz.
+- "Thread Sayısı" ayarının adı **Eşzamanlı Tarayıcı Sayısı** oldu; loglarda her satır hangi tarayıcıdan geldiğini gösteriyor.
+
+Ayrıntılı değişiklik listesi: [v1.2.0 sürüm notları](https://github.com/erdemsoftware/hitbot-releases/releases/tag/v1.2.0)
+
 ### v1.1.0
 **Öne çıkanlar**
 - **HitBot'a özel proxy'ler:** satın aldığınız proxy'ler hesabınıza tanımlandığı anda uygulamada otomatik görünür, sipariş koduyla adlandırılır; kalan kota ve bitiş tarihi uygulamadan sorgulanır.
